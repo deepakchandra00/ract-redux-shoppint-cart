@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add react-toastify
+
+PATH: 
+  /Applications/anaconda/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/anaconda/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/opt/local/bin:/opt/local/sbin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/deepakchandra/Desktop/python_/reactjs/React-Shopping-Cart-master/Shopping-Cart/node_modules/@babel/core/node_modules/debug'
+
+npm manifest: 
+  {
+    "name": "my-shopping-cart",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "react": "^16.6.3",
+      "react-dom": "^16.6.3",
+      "react-redux": "^6.0.0",
+      "react-router-dom": "^4.3.1",
+      "react-scripts": "^3.3.0",
+      "redux": "^4.0.1",
+      "redux-thunk": "^2.3.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

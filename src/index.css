@@ -1,0 +1,80 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.cross{
+  text-decoration: line-through;
+  font-size: 14px;
+  color:#878787;
+}
+.btn{
+    float:right;
+}
+span.badge.new {
+    position: absolute;
+    top: 50%;
+    left: -15px;
+}
+span.badge.new::after {
+    content: " ";
+}
+nav {
+    color: 
+#fff;
+background-color:
+#000;
+}
+.badge-cart{
+    position: absolute;
+    top: 16px;
+    background:    #fff;
+    color:    #242424;
+    border-radius: 50%;
+    padding: 0px 3px;
+    width: 22px !important;
+    height: 22px;
+    min-width: 22px !important;
+    margin-left: 100px !important;
+}
+.right{
+    position:relative;
+}
+.left{
+    float:left;
+}
+.clear{
+    clear:both;
+}
+.card{
+    width: 300px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
