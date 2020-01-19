@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add react-toastify
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.16.0/libexec/bin/yarn.js add express
 
 PATH: 
-  /Applications/anaconda/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Applications/anaconda/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/opt/local/bin:/opt/local/sbin
+  /Applications/anaconda/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
 
 Yarn version: 
   1.16.0
@@ -27,11 +27,13 @@ npm manifest:
       "react-redux": "^6.0.0",
       "react-router-dom": "^4.3.1",
       "react-scripts": "^3.3.0",
+      "react-toastify": "^5.5.0",
       "redux": "^4.0.1",
+      "redux-devtools-extension": "^2.13.8",
       "redux-thunk": "^2.3.0"
     },
     "scripts": {
-      "start": "react-scripts start",
+      "start": "node server.js",
       "build": "react-scripts build",
       "test": "react-scripts test",
       "eject": "react-scripts eject"

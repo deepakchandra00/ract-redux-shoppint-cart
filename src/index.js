@@ -7,9 +7,19 @@ import { Provider } from 'react-redux';
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import ReduxThunk from 'redux-thunk';
 import { composeWithDevTools } from "redux-devtools-extension";
+import { persistReducer, persistStore } from 'redux-persist';
+import storage from 'redux-persist/lib/storage'
 
-const store = createStore(cartReducer, composeWithDevTools(
+const persistConfig = {
+    key: 'root',
+    storage,
+};
+const persistedReducer = persistReducer(persistConfig, cartReducer);
+
+const store = createStore(persistedReducer, composeWithDevTools(
     applyMiddleware(ReduxThunk),))
+
+    persistStore(store);
 
 //const store = createStore(cartReducer);
 
